@@ -3,18 +3,20 @@
 sum([1, 2, 3, 4]) should return 10, and multiply([1, 2, 3, 4]) should return 24."""
 
    
-def sums():
+def calculate():
     numbers = list(())
     count = 0
+    multiple = 1
     keep_going = "y"
     while keep_going == "y":
         data = input("Enter the number you want to add to the list: ")
         numbers.append(data)
-        keep_going = input("Do you want to enter another number? (enter y)")
+        keep_going = input("If you want to add another number to the list enter y:")
     for y in list(numbers):
         count = count + int(y)
-    print("The sum is:", count)
-sums()
+        multiple = multiple * int(y)
+    print("The sum of all the members of the list is:", count)
+    print("The multiplication of all the members of the list results in:", multiple)
+calculate()
 
-def multipy():
-    
+
