@@ -12,5 +12,5 @@ def translate():
             new_phrase += str(x)
         else:
             new_phrase += str(x) + "o" + str(x)
-    print("The new phrase in rövarspråket is: ", new_phrase)
+    print("The new phrase in rövarspråket is", new_phrase)
 translate()
