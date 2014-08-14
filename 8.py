@@ -1,3 +1,7 @@
+"""Define a function is_palindrome() that recognizes palindromes (i.e.
+words that look the same written backwards). For example, is_palindrome("radar")
+should return True."""
+
 import re
 #re is a preinstalled class for regular expressions
 #(will be used too strip them out)
